@@ -1,0 +1,27 @@
+
+Only model prediction
+
+openvino 
+	Average Latency: 814.85 ms
+	Throughput: 1.23 images/second
+
+openvino-INT8
+	Average Latency: 207.76 ms
+	Throughput: 4.81 images/second
+
+
+yolov9 - pt
+	Average Latency: 802.74 ms
+	Throughput: 1.25 images/second
+
+onnx infer 
+	Average Latency: 1003.45 ms
+	Throughput: 1.00 images/second
+
+
+
+
+yolov9 - onnx
+	Average Latency: 958.21 ms
+	Throughput: 1.04 images/second
+
